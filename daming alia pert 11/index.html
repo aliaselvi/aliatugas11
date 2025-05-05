@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Perhitungan Pemeliharaan Kapal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-container">
+    <h2>Form Perhitungan Pemeliharaan Kapal</h2>
+    <form id="formPerhitungan">
+      <label for="panjang">Panjang Kapal (meter):</label>
+      <input type="number" id="panjang" name="panjang" required min="1" />
+
+      <label for="jenis">Jenis Kapal:</label>
+      <select id="jenis" name="jenis" required>
+        <option value="">-- Pilih Jenis Kapal --</option>
+        <option value="kapal_berbobot_ringan">Kapal Berbobot Ringan</option>
+        <option value="kapal_berbobot_berat">Kapal Berbobot Berat</option>
+      </select>
+
+      <label for="biaya_per_meter">Biaya per Meter Kapal (Rp):</label>
+      <input type="number" id="biaya_per_meter" name="biaya_per_meter" required min="1" />
+
+      <button type="submit">Hitung Biaya</button>
+    </form>
+
+    <div id="output"></div>
+    <div id="perhitungan">
+      <h3>Total Biaya Pemeliharaan</h3>
+      <p id="totalBiaya">Rp 0</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
