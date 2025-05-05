@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #b4c8d8, #032437);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .form-container {
+    background-color: #87aed1;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(135, 173, 210, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  h2 {
+    color: #010810;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #041222;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #02152a;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #031930;
+    color: rgb(247, 252, 255);
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e7f2ff;
+  }
+  
+  #output {
+    margin-top: 20px;
+    background-color: #456a92;
+    padding: 15px;
+    border-radius: 10px;
+    color: #0a0f14;
+    display: none;
+  }
+  
+  #perhitungan {
+    margin-top: 30px;
+    background-color: #d2e1eb;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #perhitungan p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #031426;
+  }
+  
